@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "latex-ocr-web"
+name = "latexocr"
 version = "0.1.0"
 description = "Latex OCR on the Web"
 authors = ["Xiangzhuang Shen <datahonor@gmail.com>"]
