@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "latex-ocr-web"
+version = "0.1.0"
+description = "Latex OCR on the Web"
+authors = ["Xiangzhuang Shen <datahonor@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pix2tex = "^0.1.2"
+fastapi = {extras = ["all"], version = "^0.109.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
